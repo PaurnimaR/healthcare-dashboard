@@ -8,10 +8,10 @@ const CalendarView = () => {
   const slots = [
     ["10:00", "11:00", "12:00"],
     ["08:00", "09:00", "10:00"],
-    ["12:00", " -- ","13:00"],
-    ["10:00", "11:00"," -- ",],
+    ["12:00", " -- ", "13:00"],
+    ["10:00", "11:00", " -- ",],
     [" -- ", "14:00", "16:00"],
-    ["12:00"," 14:00 ", "15:00"],
+    ["12:00", " 14:00 ", "15:00"],
     ["09:00", "10:00", "11:00"],
   ];
 
@@ -20,13 +20,14 @@ const CalendarView = () => {
       <div className="calendar">
         <div className="icons">
           <button>+</button>
-          <button>👤</button>
+           <img src="https://i.ibb.co/spFDFFLj/gr.png" alt="Bone" className="card-gl" />
+          
         </div>
         <div className="icons">
           <button>&rarr; </button>
           <button>&larr;</button>
         </div>
-      
+
         <div className="header">
           <span>October 2021</span>
         </div>
@@ -38,9 +39,8 @@ const CalendarView = () => {
               {slots[i]?.map((slot, j) => (
                 <div
                   key={j}
-                  className={`slot ${
-                    slot === "09:00" || slot === "11:00" ? "active" : ""
-                  }`}
+                  className={`slot ${slot === "09:00" || slot === "11:00" ? "active" : ""
+                    }`}
                 >
                   {slot}
                 </div>
@@ -49,7 +49,7 @@ const CalendarView = () => {
           ))}
         </div>
       </div>
-      <div className= "appointments-section">
+      <div className="appointments-section">
         <div className="appointments">
           <AppointmentCard
             type="Dentist"

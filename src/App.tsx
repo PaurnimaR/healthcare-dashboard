@@ -64,14 +64,14 @@ const App = () => {
 
           <div className="dashboard-body">
             <div className="anatomy-area">
-              <img src="/bd1.jpg" alt="Anatomy" className="anatomy-image" />
+              <img src="https://i.ibb.co/Q7tCvqRN/bd1.jpg" alt="Anatomy" className="anatomy-image" />
               <button className="tag heart">❤️ Healthy Heart</button>
               <button className="tag leg">🦵 Healthy Leg</button>
             </div>
 
             <div className="cards-area">
               <div className="card">
-                <img src="/Lg1.png" alt="Lungs" className="card-icon" />
+                <img src="https://i.ibb.co/Rkq2CSyq/Lg1.png" alt="Lungs" className="card-icon" />
                 <div>
                   <h4>Lungs</h4>
                   <p>Date: 26 Oct 2021</p>
@@ -79,7 +79,7 @@ const App = () => {
                 </div>
               </div>
               <div className="card">
-                <img src="/teeth.png" alt="Teeth" className="card-icon" />
+                <img src="https://i.ibb.co/WpgnF57J/teeth.png" alt="Teeth" className="card-icon" />
                 <div>
                   <h4>Teeth</h4>
                   <p>Date: 26 Oct 2021</p>
@@ -87,7 +87,7 @@ const App = () => {
                 </div>
               </div>
               <div className="card">
-                <img src="/bone.png" alt="Bone" className="card-icon" />
+                <img src="https://i.ibb.co/B5dRGtJM/bone.png" alt="Bone" className="card-icon" />
                 <div>
                   <h4>Bone</h4>
                   <p>Date: 26 Oct 2021</p>
